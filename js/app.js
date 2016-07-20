@@ -1,5 +1,6 @@
 
 $(document).ready(function(){
+<<<<<<< HEAD
 
 
     // BETWEEN COMPARE FUNCTION
@@ -19,10 +20,21 @@ $(document).ready(function(){
 
 
   	// HIDE INFO MODAL
+=======
+	
+	/*--- Display information modal box ---*/
+  	$(".what").click(function(){
+    	$(".overlay").fadeIn(1000);
+
+  	});
+
+  	/*--- Hide information modal box ---*/
+>>>>>>> f6c17cf8523d290e85a5b33a658c231efae133ac
   	$("a.close").click(function(){
   		$(".overlay").fadeOut(1000);
   	});
 
+<<<<<<< HEAD
 
     // NEW GAME BUTTON
     $("a.new").click(function(e){
@@ -106,6 +118,8 @@ $(document).ready(function(){
 
 
 
+=======
+>>>>>>> f6c17cf8523d290e85a5b33a658c231efae133ac
 });
 
 
